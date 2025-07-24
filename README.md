@@ -32,5 +32,8 @@ Run the server and open `http://localhost:3000` in your browser to view the app.
 - Applied 'express-rate-limit' to prevent brute attack forces.
 - Properly configured CORS to prevent unauthorized access.
 - Applied API keys to secure.
+- Used CSP to  prevents script injection by restricting allowed sources for scripts, styles, fonts, and images.
+- Used HSTS that enforces HTTPS connections to protect against protocol downgrade attacks.
+
   
 
