@@ -29,6 +29,8 @@ Run the server and open `http://localhost:3000` in your browser to view the app.
 - Used XSS and SQL injection
 - Used Winston to gain security log.
 - Ued bcrypt to hash passwords.
-  
+- Applied 'express-rate-limit' to prevent brute attack forces.
+- Properly configured CORS to prevent unauthorized access.
+- Applied API keys to secure.
   
 
